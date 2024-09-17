@@ -93,11 +93,11 @@ print(
     "Enter Y if you agree to the Minecraft End User License Agreement and Privacy",
     "Policy",
 )
-# Does prompting the EULA seem so official that it violates the EULA?
+""" # Does prompting the EULA seem so official that it violates the EULA?
 print("Minecraft End User License Agreement: https://minecraft.net/eula")
 print("Privacy Policy: https://go.microsoft.com/fwlink/?LinkId=521839")
 if input().lower() != "y":
-    sys.exit("input != y")
+    sys.exit("input != y") """
 for version in VERSIONS:
     if version == "current":
         for urlx in urls:
